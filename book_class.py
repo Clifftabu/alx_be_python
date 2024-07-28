@@ -1,4 +1,4 @@
-# Create a Python script named book_class.py
+#Create a Python script named book_class.py
 
 class Book:
     def __init__(self, title, author, year):
@@ -15,7 +15,7 @@ class Book:
     def __del__(self):
         print(f"Deleting {self.title}")
 
-# Example usage
+#Example use
 if __name__ == "__main__":
     my_book = Book("1984", "George Orwell", 1949)
     print(my_book)  # Expected to use __str__
